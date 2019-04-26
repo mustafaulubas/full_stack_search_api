@@ -1,0 +1,14 @@
+{% extends "_base.html" %}
+{% block content %}
+
+<div>
+  <h2>Search GIFs</h2>
+  <hr><br>
+  <form method="POST" action="/">
+    {{ form.csrf_token }}
+    {{ form.searchterm(size=20) }}
+    <input type="submit" value="Search">
+</form>
+</div>
+
+{% endblock %}

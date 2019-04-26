@@ -1,0 +1,24 @@
+version: '3.0'
+
+services:
+
+  web:
+    image: web
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    volumes:
+      - '.:/usr/src/app'
+    ports:
+      - 5000:5000
+    environment:
+      - APP_NAME=My first App
+      - FLASK_DEBUG=1
+      - PYTHONUNBUFFERED=0
+      - APP_SETTINGS=project.config.DevelopmentConfig
+    entrypoint:
+      - python
+      - manage.py
+      - run
+      - -h 
+      - 0.0.0.0
