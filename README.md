@@ -1,4 +1,4 @@
-# CodeDoor Coding Challenge - GifCities
+# Challenge - GifCities
 
 ![Hero](/static/header.png)
 ## The Context
@@ -90,9 +90,6 @@ These resources listed below might help for your challenge:
 * Once you're satified with your solution, create a Pull Request in your repo.
 * Your solution should work like this:
 ![Result](/static/results_example.gif)
-    
  
-Too hard? Got stuck? We encourage to reach out to Tutors and the CodeDoor Slack Community.  
-Too easy? Go the extra mile and add additional search functionalities or improve the styling.
 
 **Good Luck and Happy Coding!**
